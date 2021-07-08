@@ -1,0 +1,36 @@
+.webp .header {
+  background-image: url(../img/banner.webp);
+}
+
+.no-webp .header {
+  background-image: url(../img/banner.jpg);
+}
+
+.header {
+  background: {
+    size: cover;
+    repeat: no-repeat;
+    position: center center;
+  }
+  height: 60rem;
+
+  &__texto {
+    text-align: center;
+    color: $blanco;
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__texto {
+    margin-top: 15rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

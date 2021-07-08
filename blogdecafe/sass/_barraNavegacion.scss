@@ -1,0 +1,14 @@
+.navegacion {
+  &__enlace {
+    display: block;
+    font-size: 1.8rem;
+    color: $blanco;
+  }
+}
+
+@media (min-width: 768px) {
+  .navegacion {
+    display: flex;
+    gap: 2rem;
+  }
+}

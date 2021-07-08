@@ -1,0 +1,9 @@
+.entrada {
+  border-bottom: 1px solid $gris;
+  margin-bottom: 2rem;
+
+  &:last-of-type {
+    border: none;
+    margin-bottom: 0;
+  }
+}

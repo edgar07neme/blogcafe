@@ -1,0 +1,21 @@
+.widget-curso {
+  border-bottom: 1px solid $gris;
+  margin-bottom: 2rem;
+  &:last-of-type {
+    border: none;
+    margin-bottom: 0;
+  }
+  &__label {
+    font: {
+      family: $fuenteHeading;
+      weight: 700;
+      size: 2rem;
+    }
+  }
+  &__info {
+    font: {
+      weight: 400;
+      size: 2rem;
+    }
+  }
+}

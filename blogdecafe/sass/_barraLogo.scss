@@ -1,0 +1,9 @@
+.logo {
+  color: $blanco;
+  &__nombre {
+    font-weight: 400;
+  }
+  &__bold {
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,30 @@
+.curso {
+  padding: 3rem;
+  border-bottom: 1px solid $gris;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  &__label {
+    font: {
+      family: $fuenteHeading;
+      weight: 700;
+      size: 2rem;
+    }
+  }
+  &__info {
+    font: {
+      weight: 400;
+      size: 2rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .curso {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }
+}

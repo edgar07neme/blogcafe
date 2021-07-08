@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap");
+@import "normalize";
+@import "variables";
+@import "globales";
+@import "header";
+@import "barraLogo";
+@import "barraNavegacion";
+
+//INDEX
+@import "contenidoPrincipal";
+@import "entrada";
+@import "cursos";
+
+//NOSOTROS
+@import "mainNosotros";
+
+//CURSOS
+@import "pagina-curso";
+
+//CONTACTO
+@import "contacto";
+@import "formulario";
+
+@import "footer";

@@ -1,0 +1,25 @@
+.formulario {
+  background-color: $blanco;
+  margin: -5rem auto 0 auto;
+  width: 95%;
+  padding: 5rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+
+  &__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+  }
+
+  &__field {
+    flex: 1;
+    border: 1px solid $gris;
+    &-textarea {
+      height: 20rem;
+    }
+  }
+}
